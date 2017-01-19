@@ -1,0 +1,13 @@
+<h1>{{ $ctrl.hello }}</h1>
+
+<input type="text" data-ng-model="$ctrl.person.firstname" name="name">
+<input type="text" data-ng-model="$ctrl.person.lastname" name="name2">
+
+<input type="number" data-ng-model="num1" />
+<input type="number" data-ng-model="num2" />
+
+<input type="submit" name="btnSubmit" data-ng-click="$ctrl.sum(num1, num2)" value="SUM">
+<input type="submit" name="btnSubmit" data-ng-click="$ctrl.sub(num1, num2)" value="SUB">
+
+{{$ctrl.person.firstname}}
+{{$ctrl.person.lastname}}
