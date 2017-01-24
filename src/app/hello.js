@@ -11,6 +11,19 @@ angular
       	lastname: 'Romano'
       };
 
+      this.list = [{
+        name: 'Lizianne Priscila',
+        lastname: 'Souto'
+      }, 
+      {
+        name: 'Marluce de souza',
+        lastname: 'pereira'
+      },
+      {
+        name: 'Luiza Possi',
+        lastname: 'zizi'
+      }];
+
       this.sub = function(num1, num2) {
       	return alert(MathService.subService(num1, num2));
       };

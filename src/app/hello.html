@@ -11,3 +11,13 @@
 
 {{$ctrl.person.firstname}}
 {{$ctrl.person.lastname}}
+
+<ul>
+	<li data-ng-repeat="item in $ctrl.list">
+		<p>{{item.name}}</p>
+		<p data-ng-bind="item.lastname"></p>
+	</li>
+</ul>
+
+<div app-directive></div>
+<app-directive></app-directive>
